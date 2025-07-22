@@ -1,0 +1,35 @@
+# Ignore KiCad backup & temp files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*.tmp
+*.kicad_prl
+*~
+fp-info-cache
+
+
+# Ignore autosave files
+.autosave
+*-save.pro
+*-save.kicad_pcb
+
+# Ignore generated Gerber files
+*.gbr
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.drl
+*.zip
+gerber/
+
+*.net
+*.dsn
+*.ses
+
+# Ignore system folders
+_pycache_/
+.DS_Store
