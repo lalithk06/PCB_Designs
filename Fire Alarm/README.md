@@ -16,13 +16,14 @@
 ---
 
 ## ⚙ Components Used
-  1. LDR
-  2. BJT
-  3. Resistors
-  4. LED
-  5. Buzzer
-  6. Battery
-  7. Switch
+| No. | Components           | Specifications          |
+| :---: | :--------------------: | :-----------------------: |
+| 1.  | Battery              | 9V                      |
+| 2.  | Transistor (NPN BJT) | BC547                   |
+| 3.  | LDR                  | Standard                |
+| 4.  | Resistors            |                         |
+| 5.  | LED                  | Red (2V forward drop)   |
+| 6.  | Buzzer               | 5V-9V piezo or magnetic |
 
 ---
 
