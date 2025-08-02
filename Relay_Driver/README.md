@@ -1,9 +1,11 @@
 #🖥 Relay Driver PCB (Single Channel)
+
 	A compact and reliable single-channel relay driver circuit designed in KiCad, suitable for MCU-based automation projects. 
 
 ---
 
 ##📌 Overview
+
 	This PCB allows an MCU (like Arduino, ESP32, or Raspberry Pi) to control high-voltage or high-current loads using an electromagnetic relay.
 
 It integrates:
@@ -50,11 +52,17 @@ It integrates:
 ---
 
 ##🔧 Features
+
 ✅ Supports **5V or 12V relays** (SANYOU SRD series)
+
 ✅ **Transistor driver stage (BC547)** for MCU signal amplification
+
 ✅ **Flyback diode (1N4007)** for relay coil protection
+
 ✅ **LED indicator** for relay ON/OFF status
+
 ✅ **Screw terminal output** for load switching (COM, NO, NC)
+
 ✅ Compact **single-layer PCB** (ideal for hobby or educational use)
 
 ---
@@ -81,6 +89,7 @@ It integrates:
 ---
 
 ##⚙ Specifications
+
 	-**Relay Type:** SANYOU SRD (5V or 12V)
 
 	-**Control Voltage:** MCU-compatible (3.3V or 5V logic)
