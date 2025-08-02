@@ -18,7 +18,7 @@ It integrates:
 ---
 
 ##  🔄 Working
-1. **Idle State (MCU LOW):**
+### 1️⃣ Idle State (MCU LOW):
 
   -The MCU output pin is LOW.
 
@@ -28,7 +28,9 @@ It integrates:
 
   -The LED indicator is OFF.
 
-2. **Active State (MCU HIGH):**
+---
+
+### 2️⃣ Active State (MCU HIGH):
 
   -The MCU output pin goes HIGH (logic signal sent).
 
@@ -40,7 +42,9 @@ It integrates:
 
   -The LED lights up, indicating relay activation.
 
-3. **Flyback Diode Protection:**
+---
+
+### 3️⃣ Flyback Diode Protection:
 
   -When the MCU signal turns OFF, the coil de-energizes, creating a voltage spike.
 
