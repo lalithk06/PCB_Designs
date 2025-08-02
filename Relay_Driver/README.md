@@ -21,7 +21,7 @@ It integrates:
 ---
 
 ##  🔄 Working
-1. **Idle State (MCU LOW):**
+1. ** Idle State (MCU LOW): **
 
 	-The MCU output pin is LOW.
 
@@ -31,7 +31,7 @@ It integrates:
 
 	-The LED indicator is OFF.
 
-2. **Active State (MCU HIGH):**
+2. ** Active State (MCU HIGH): **
 
 	-The MCU output pin goes HIGH (logic signal sent).
 
@@ -43,7 +43,7 @@ It integrates:
 
 	-The LED lights up, indicating relay activation.
 
-3. **Flyback Diode Protection:**
+3. ** Flyback Diode Protection: **
 
 	-When the MCU signal turns OFF, the coil de-energizes, creating a voltage spike.
 
@@ -53,17 +53,17 @@ It integrates:
 
 ##  🔧 Features
 
-✅ Supports **  5V or 12V relays  ** (SANYOU SRD series)
+✅ Supports ** 5V or 12V relays ** (SANYOU SRD series)
 
-✅ **  Transistor driver stage (BC547)  ** for MCU signal amplification
+✅ ** Transistor driver stage (BC547) ** for MCU signal amplification
 
-✅ **  Flyback diode (1N4007)  ** for relay coil protection
+✅ ** Flyback diode (1N4007) ** for relay coil protection
 
-✅ **  LED indicator  ** for relay ON/OFF status
+✅ ** LED indicator ** for relay ON/OFF status
 
-✅ **  Screw terminal output  ** for load switching (COM, NO, NC)
+✅ ** Screw terminal output ** for load switching (COM, NO, NC)
 
-✅ Compact **  single-layer PCB  ** (ideal for hobby or educational use)
+✅ Compact ** single-layer PCB ** (ideal for hobby or educational use)
 
 ---
 
@@ -90,13 +90,13 @@ It integrates:
 
 ##  ⚙ Specifications
 
-	-**  Relay Type:  ** SANYOU SRD (5V or 12V)
+	-** Relay Type: ** SANYOU SRD (5V or 12V)
 
-	-**  Control Voltage:  ** MCU-compatible (3.3V or 5V logic)
+	-** Control Voltage: ** MCU-compatible (3.3V or 5V logic)
 
-	-**  Load Voltage: ** Supports AC (up to relay rating) or DC loads
+	-** Load Voltage: ** Supports AC (up to relay rating) or DC loads
 
-	-**  Transistor:  ** BC547 (NPN driver)
+	-** Transistor: ** BC547 (NPN driver)
 
-	-**  Flyback Diode: ** 1N4007 (across coil)
+	-** Flyback Diode: ** 1N4007 (across coil)
 
