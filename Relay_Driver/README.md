@@ -7,13 +7,14 @@
   This PCB allows an MCU (like Arduino, ESP32, or Raspberry Pi) to control high-voltage or high-current loads using an electromagnetic relay.
 
 It integrates:
-  -MCU-compatible input (logic level control)
 
-  -Flyback diode protection
+   * MCU-compatible input (logic level control)
 
-  -LED status indicator
+   * Flyback diode protection
 
-  -Screw terminals for easy load connection
+   * LED status indicator
+
+   * Screw terminals for easy load connection
 
 ---
 
@@ -28,7 +29,6 @@ It integrates:
 
   -The LED indicator is OFF.
 
----
 
 ### 2️⃣ Active State (MCU HIGH):
 
@@ -42,7 +42,6 @@ It integrates:
 
   -The LED lights up, indicating relay activation.
 
----
 
 ### 3️⃣ Flyback Diode Protection:
 
@@ -91,13 +90,13 @@ It integrates:
 
 ##  ⚙ Specifications
 
-  -**Relay Type:** SANYOU SRD (5V or 12V)
+  * **Relay Type:** SANYOU SRD (5V or 12V)
 
-  -**Control Voltage:** MCU-compatible (3.3V or 5V logic)
+  * **Control Voltage:** MCU-compatible (3.3V or 5V logic)
 
-  -**Load Voltage:** Supports AC (up to relay rating) or DC loads
+  * **Load Voltage:** Supports AC (up to relay rating) or DC loads
 
-  -**Transistor:** BC547 (NPN driver)
+  * **Transistor:** BC547 (NPN driver)
 
-  -**Flyback Diode:** 1N4007 (across coil)
+  * **Flyback Diode:** 1N4007 (across coil)
 
