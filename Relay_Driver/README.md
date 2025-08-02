@@ -53,30 +53,30 @@ It integrates:
 
 ##  🔧 Features
 
-✅ Supports **5V or 12V relays** (SANYOU SRD series)
+✅ Supports **  5V or 12V relays  ** (SANYOU SRD series)
 
-✅ **Transistor driver stage (BC547)** for MCU signal amplification
+✅ **  Transistor driver stage (BC547)  ** for MCU signal amplification
 
-✅ **Flyback diode (1N4007)** for relay coil protection
+✅ **  Flyback diode (1N4007)  ** for relay coil protection
 
-✅ **LED indicator** for relay ON/OFF status
+✅ **  LED indicator  ** for relay ON/OFF status
 
-✅ **Screw terminal output** for load switching (COM, NO, NC)
+✅ **  Screw terminal output  ** for load switching (COM, NO, NC)
 
-✅ Compact **single-layer PCB** (ideal for hobby or educational use)
+✅ Compact **  single-layer PCB  ** (ideal for hobby or educational use)
 
 ---
 
 ##  🔌 Connections
-###Power Header (J1)
+###  Power Header (J1)
 	Pin 1: VCC (5V or 12V depending on relay)
 	Pin 2: GND
 
-###MCU Input Header (J2)
+###  MCU Input Header (J2)
 	Pin 1: MCU_IN (GPIO from MCU)
 	Pin 2: GND (common reference with MCU)
 
-###Relay Output Header (J3)
+###  Relay Output Header (J3)
 	Pin 1: COM (Common terminal)
 	Pin 2: NC (Normally Closed)
 	Pin 3: NO (Normally Open)
@@ -90,13 +90,13 @@ It integrates:
 
 ##  ⚙ Specifications
 
-	-**Relay Type:** SANYOU SRD (5V or 12V)
+	-**  Relay Type:  ** SANYOU SRD (5V or 12V)
 
-	-**Control Voltage:** MCU-compatible (3.3V or 5V logic)
+	-**  Control Voltage:  ** MCU-compatible (3.3V or 5V logic)
 
-	-**Load Voltage:** Supports AC (up to relay rating) or DC loads
+	-**  Load Voltage: ** Supports AC (up to relay rating) or DC loads
 
-	-**Transistor:** BC547 (NPN driver)
+	-**  Transistor:  ** BC547 (NPN driver)
 
-	-**Flyback Diode:** 1N4007 (across coil)
+	-**  Flyback Diode: ** 1N4007 (across coil)
 
