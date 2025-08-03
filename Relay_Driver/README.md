@@ -86,11 +86,11 @@ It integrates:
 ## 🖼 PCB Design & Screenshots
 
 ### 🔧 Schematic:
-![Schematic](Relay_Driver/relaydriver_sch.png)
+![Schematic](relaydriver_sch.png)
 
 ### 🔌 PCB Layout:
 **Top View:**  
-![Top Layout](D:\KiCAD\PCB_Designs\Relay_Driver/relaydriver_pcb.png)  
+![Top Layout](relaydriver_pcb.png)  
 
 ### 🎨 3D Render:
 ![3D Render](D:\KiCAD\PCB_Designs\Relay_Driver/relaydriver_3Drender.png)
