@@ -93,7 +93,7 @@ It integrates:
 ![Top Layout](relaydriver_pcb.png)  
 
 ### 🎨 3D Render:
-![3D Render](D:\KiCAD\PCB_Designs\Relay_Driver/relaydriver_3Drender.png)
+![3D Render](relaydriver_3Drender.png)
 
 ---
 
