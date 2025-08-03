@@ -8,7 +8,7 @@ This repo contains various **KiCad PCB design projects** for electronics and emb
 | 🔗 Project Name         | 📜 Description                                                   | ✅ Status                | 📁 Link |
 |:-----------------------:|:---------------------------------------------------------------:|:------------------------|:-------:|
 | 🔥 Fire Alarm System    | A light-based fire alarm circuit using an LDR and transistor.   | [x] Schematic <br> [x] PCB | [View Project](./Fire_Alarm/README.md) |
-| ⚡ Relay Driver Circuit  | A single-channel relay driver for MCU load control.            | [x] Schematic <br> [ ] PCB | [View Project](./Relay_Driver/README.md) |
+| ⚡ Relay Driver Circuit  | A single-channel relay driver for MCU load control.            | [x] Schematic <br> [x] PCB | [View Project](./Relay_Driver/README.md) |
 
 ---
 
