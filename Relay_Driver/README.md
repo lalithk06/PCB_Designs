@@ -86,7 +86,7 @@ It integrates:
 ## 🖼 PCB Design & Screenshots
 
 ### 🔧 Schematic:
-![Schematic](D:\KiCAD\PCB_Designs\Relay_Driver/relaydriver_sch.png)
+![Schematic](Relay_Driver/relaydriver_sch.png)
 
 ### 🔌 PCB Layout:
 **Top View:**  
