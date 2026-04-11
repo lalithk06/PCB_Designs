@@ -33,3 +33,6 @@ gerber/
 # Ignore system folders
 _pycache_/
 .DS_Store
+
+Quiz_Buzzer/
+Imapact_Detection_in_Mars/
