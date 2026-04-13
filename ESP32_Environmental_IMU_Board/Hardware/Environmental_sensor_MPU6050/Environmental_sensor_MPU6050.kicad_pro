@@ -630,6 +630,14 @@
       {
         "netclass": "I2C",
         "pattern": "SCL/IO9"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "D-"
       }
     ]
   },
