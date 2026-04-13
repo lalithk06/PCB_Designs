@@ -9,6 +9,7 @@ This repo contains various **KiCad PCB design projects** for electronics and emb
 |:-----------------------:|:---------------------------------------------------------------:|:------------------------|:-------:|
 | 🔥 Fire Alarm System    | A light-based fire alarm circuit using an LDR and transistor.   | [x] Schematic <br> [x] PCB | [View Project](./Fire_Alarm/README.md) |
 | ⚡ Relay Driver Circuit  | A single-channel relay driver for MCU load control.            | [x] Schematic <br> [x] PCB | [View Project](./Relay_Driver/README.md) |
+| 🤖 PID Line Follower PCB | ESP32-based autonomous line follower with custom PCB (power zoning, motor driver, sensors). | [x] Schematic <br> [x] PCB | [View Project](https://github.com/lalithk06/PID-Line-Follower) |
 | 🌍 ESP32 Environmental IMU Board | ESP32-based sensor board for environmental & motion monitoring (I2C sensors). | [x] Schematic <br> [In Progress] PCB | [View Project](./ESP32_Environmental_IMU_Board/README.md) |
 
 ---
