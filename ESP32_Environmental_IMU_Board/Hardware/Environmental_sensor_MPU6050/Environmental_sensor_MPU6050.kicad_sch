@@ -13924,7 +13924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7uF"
 			(at 69.85 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13935,7 +13935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 67.0052 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -16768,7 +16768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f93415f-406d-4e09-876a-1c5839e1986f")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG05"
 			(at 328.295 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -16829,7 +16829,7 @@
 		(instances
 			(project "Environmental_sensor_MPU6050"
 				(path "/90ab1963-33c1-4a07-bcd3-34d44fb1eedd"
-					(reference "#FLG04")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -16869,7 +16869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 133.35 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -18857,7 +18857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 99.06 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -19347,7 +19347,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -19568,7 +19568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c41ddd-fd85-4211-bc38-4008d729dbae")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 83.82 53.975 0)
 			(hide yes)
 			(show_name no)
@@ -19628,7 +19628,7 @@
 		(instances
 			(project "Environmental_sensor_MPU6050"
 				(path "/90ab1963-33c1-4a07-bcd3-34d44fb1eedd"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -19964,7 +19964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80de73fd-aada-49ed-9ead-03645349a250")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG04"
 			(at 158.75 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -20024,7 +20024,7 @@
 		(instances
 			(project "Environmental_sensor_MPU6050"
 				(path "/90ab1963-33c1-4a07-bcd3-34d44fb1eedd"
-					(reference "#FLG06")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -20464,7 +20464,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 31.75 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20475,7 +20475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 26.9748 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -21453,7 +21453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 151.13 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -21633,7 +21633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
 			(at 107.95 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -21693,7 +21693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa0e78c5-a3f6-4faf-953f-1e3d2e08b467")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG01"
 			(at 27.94 150.495 0)
 			(hide yes)
 			(show_name no)
@@ -21753,7 +21753,7 @@
 		(instances
 			(project "Environmental_sensor_MPU6050"
 				(path "/90ab1963-33c1-4a07-bcd3-34d44fb1eedd"
-					(reference "#FLG05")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -23747,7 +23747,7 @@
 		(dnp no)
 		(uuid "d1705849-91ce-4125-aeb9-982e5be992a6")
 		(property "Reference" "R_PRG1"
-			(at 40.132 175.26 90)
+			(at 35.306 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23826,7 +23826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3895bea-b410-4251-9f9c-252f327b45c6")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 55.88 34.925 0)
 			(hide yes)
 			(show_name no)
@@ -23886,7 +23886,7 @@
 		(instances
 			(project "Environmental_sensor_MPU6050"
 				(path "/90ab1963-33c1-4a07-bcd3-34d44fb1eedd"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
