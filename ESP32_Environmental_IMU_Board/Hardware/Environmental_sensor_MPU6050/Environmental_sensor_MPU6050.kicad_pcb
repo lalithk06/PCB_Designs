@@ -110,7 +110,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -11011,7 +11010,7 @@
 	(footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm"
 		(layer "F.Cu")
 		(uuid "86fc8012-1f8f-43bd-af81-b6bc477dee16")
-		(at 70.975 99.6)
+		(at 71.025 99.3)
 		(descr "Fiducial, circular marking, 0.75mm bare copper, 1.5mm soldermask opening (Level B)")
 		(tags "fiducial")
 		(property "Reference" "FID3"
@@ -11929,7 +11928,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "8b225032-66fe-42c5-a120-f20dbe6111e1")
-		(at 95.67 102.75 90)
+		(at 94.265 100.55 90)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J4"
@@ -12508,7 +12507,7 @@
 	(footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm"
 		(layer "F.Cu")
 		(uuid "97f4175f-98da-415f-925c-975f48ba3dab")
-		(at 137 98.5)
+		(at 137.05 99.3)
 		(descr "Fiducial, circular marking, 0.75mm bare copper, 1.5mm soldermask opening (Level B)")
 		(tags "fiducial")
 		(property "Reference" "FID2"
@@ -17437,7 +17436,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d7cd9fcd-4e57-4f3e-a42a-6f43f54489b3")
-		(at 137.35 81.45 180)
+		(at 135.575 80.275 180)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J3"
@@ -20897,9 +20896,57 @@
 		)
 	)
 	(gr_text "I2C CONNECTOR"
-		(at 93.55 100.25 0)
+		(at 92.145 98.05 0)
 		(layer "F.SilkS" knockout)
 		(uuid "bb3b1426-1ed5-46f5-ad77-9d28950ff936")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 137.6 80.8 0)
+		(layer "F.SilkS")
+		(uuid "45089b7e-7696-4a1f-9297-fcb2552eef95")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SCL"
+		(at 137.7 75.725 0)
+		(layer "F.SilkS")
+		(uuid "8a023c73-0f5d-4ea2-8884-387f4d56d2e8")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3V3"
+		(at 137.7 78.35 0)
+		(layer "F.SilkS")
+		(uuid "88e80522-36a1-4af5-a57f-131c17f72731")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDA"
+		(at 137.725 73.05 0)
+		(layer "F.SilkS")
+		(uuid "a0326b73-5243-4241-ba44-6b236e5262b8")
 		(effects
 			(font
 				(size 0.8 1)
@@ -20956,8 +21003,56 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "OLED DISPLAY"
-		(at 134.65 83.1 90)
+	(gr_text "GND\n"
+		(at 94.825 105.65 90)
+		(layer "F.SilkS")
+		(uuid "e3015481-d93e-46a4-b54b-9fe3bde48fef")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3V3"
+		(at 97.275 105.55 90)
+		(layer "F.SilkS")
+		(uuid "1e832562-9a6c-4da0-8854-7fe35e9fedde")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SCL"
+		(at 99.775 105.525 90)
+		(layer "F.SilkS")
+		(uuid "a371067a-0515-492a-9c26-e60ee174a5f2")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDA"
+		(at 102.325 105.525 90)
+		(layer "F.SilkS")
+		(uuid "89dd46a2-97f3-4f2f-a8b7-7ce3cb8f5a8e")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "OLED"
+		(at 132.825 81.8 90)
 		(layer "F.SilkS" knockout)
 		(uuid "48d51843-471e-4783-8855-bb9411a8b77a")
 		(effects
