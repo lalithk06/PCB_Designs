@@ -1,5 +1,5 @@
 # Ignore external libraries
-External-Libraries/
+Hardware/External-Libraries/
 
 # Ignore external 3D models
 External-3D_Models/
