@@ -21267,8 +21267,8 @@
 		(layer "Edge.Cuts")
 		(uuid "5c4a014f-0235-4de9-a292-a02b9495462d")
 	)
-	(gr_text "POWER SECTION"
-		(at 86.75 46.85 0)
+	(gr_text "POWER \nSECTION"
+		(at 93.35 51.85 0)
 		(layer "F.SilkS" knockout)
 		(uuid "97a63d19-fd59-47e2-a811-eef4a7a3fa02")
 		(effects
