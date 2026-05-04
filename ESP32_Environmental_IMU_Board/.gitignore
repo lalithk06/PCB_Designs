@@ -2,7 +2,7 @@
 Manufacturing Files/
 
 # Ignore external libraries
-Hardware/External-Libraries/
+External-Libraries/
 
 # Ignore external 3D models
-Hardware/External-3D_Models/
+External-3D_Models/
