@@ -1,0 +1,8 @@
+# Ignore manufacturing files
+Manufacturing Files/
+
+# Ignore external libraries
+Hardware/External-Libraries/
+
+# Ignore external 3D models
+Hardware/External-3D_Models/
