@@ -514,7 +514,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Environmental_sensor_MPU6050.kicad_pro",
+    "filename": "IEQ_Monitor.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1170,12 +1170,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Environmental_sensor_MPU6050.kicad_sch",
-        "name": "Environmental_sensor_MPU6050",
+        "filename": "IEQ_Monitor.kicad_sch",
+        "name": "IEQ_Monitor",
         "uuid": "90ab1963-33c1-4a07-bcd3-34d44fb1eedd"
       }
     ],
-    "used_designators": "H1-4,#PWR40",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

@@ -198,7 +198,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/612cba4d-3abb-455f-9c43-64576eede441")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -474,7 +474,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/3784fa57-c809-48c7-a849-0fdd28c77b4d")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -585,7 +585,7 @@
 		(property ki_fp_filters "ESP32?S3?WROOM?1*")
 		(path "/4c16eee5-af83-4ff1-adf3-4be3763abd22")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1532,7 +1532,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1ad07fad-24f1-4e91-b270-dd1d0fb2f81d")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1690,7 +1690,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/dcd60b30-10ac-4759-9228-6f0d414e345b")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1848,7 +1848,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2c6281b0-54f5-4300-ac1f-5f877ba203ca")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1998,7 +1998,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/a72afd11-7df4-4f5c-a5a3-0bc25669cfcb")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2238,7 +2238,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -2307,7 +2307,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c3f8b11b-3747-4c8f-ae21-6b800b24ab3a")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2466,7 +2466,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/a6762204-13a7-4aa5-9935-1b3991fa9db8")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2701,7 +2701,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/41c62252-3517-4c44-a350-fa54d6dd198c")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2999,7 +2999,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/10981fdd-3262-426c-b98f-31189b348296")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3157,7 +3157,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bb26dbb3-1c9e-4d3e-8f71-563d5d2c3b79")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3315,7 +3315,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9e46f81e-080b-4b9e-a7de-1a3a611caa74")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3473,7 +3473,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/94c0699b-db22-4872-a6d2-c8cfa7966a4b")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3631,7 +3631,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b459fd5e-7790-418a-b44d-0374d3d12ede")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3930,7 +3930,7 @@
 		)
 		(path "/1b203775-96f6-4688-ae06-71f0b0b7e059")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4704,7 +4704,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -90)
+				(xyz -90 0 -90)
 			)
 		)
 	)
@@ -4765,7 +4765,7 @@
 		(property ki_fp_filters "SOT?666*")
 		(path "/9edc8b25-0454-4a58-a65d-f4f2304af6a4")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5055,7 +5055,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f48a471e-ff0d-4b6b-9396-1b4e9356129a")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5214,7 +5214,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/8b386b6d-83c0-474c-8bec-65cc6f616519")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5331,7 +5331,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bc45f6b6-6209-48e5-b64c-41765e934265")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5489,7 +5489,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d1705849-91ce-4125-aeb9-982e5be992a6")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5638,7 +5638,7 @@
 		)
 		(path "/fd6f8df9-9d58-41d3-9996-244827cb38f7")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5907,7 +5907,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5ed6bdbe-c82d-4fba-8fb6-dfee1f0ad13e")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6057,7 +6057,7 @@
 		(property ki_fp_filters "microSD*")
 		(path "/5a5a488d-9e9a-4b15-9549-cd84038ca413")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6864,7 +6864,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/da1c585a-3d1f-4f30-bba5-868353ee7a5e")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7022,7 +7022,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4780b768-982c-4ce2-bd27-676ab7af0014")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7180,7 +7180,7 @@
 		(property ki_fp_filters "SOT?23?5*")
 		(path "/6928b15d-8a8b-4fa4-94fb-b2b4fcf45504")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7724,7 +7724,7 @@
 		)
 		(path "/39cf0101-13a2-42a3-8fc0-9a5e0f2a091a")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7932,7 +7932,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -8001,7 +8001,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/94b53187-9bb1-4f1f-8689-d3df0be647e4")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8159,7 +8159,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5005965e-59da-4bb7-8d58-e3312899a853")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8317,7 +8317,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/473871f9-0230-425c-8918-557cc60a4216")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8475,7 +8475,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/473f8aa4-84a6-4318-8b3d-0bb43ba4c684")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8633,7 +8633,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5dd466e9-cb28-4205-8bce-921f30211557")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8919,7 +8919,7 @@
 		)
 		(path "/d0ec22e5-6288-4c86-8fe7-1c9755142ea1")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9130,7 +9130,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -9191,7 +9191,7 @@
 		(property ki_fp_filters "*LGA*2.5x2.5mm*P0.65mm*Clockwise*")
 		(path "/8989edaa-b80d-4fd0-bac1-81500debfa92")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9523,7 +9523,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bc45fcf5-2c2d-49d7-925c-a2f55f31c967")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9694,7 +9694,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0233845e-c9f2-4053-b3b7-4c1e79a672e3")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9880,7 +9880,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/41e96707-5700-442b-9c7b-4b34062cc6d2")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10097,7 +10097,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f4a628e2-fea4-44eb-975b-8ce00173832e")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10255,7 +10255,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2369837b-3943-4b54-b090-0abfa628e2af")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10413,7 +10413,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/16e877dc-6a2b-4feb-a379-2005664ceb1c")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10571,7 +10571,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6bb14697-7a9f-4b7e-a40b-4d197a25e05c")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10720,7 +10720,7 @@
 		)
 		(path "/bb54d7a0-5e8a-4c8c-a8f8-bd08a96da2d5")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11002,7 +11002,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d5799429-c326-48b9-90d9-ec287bda9a22")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11188,7 +11188,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/d51fc2bc-fd42-4198-95ca-c99022e91492")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11298,7 +11298,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/9f79ed1d-9c45-4d8a-9bb4-d59875ead647")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11721,7 +11721,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -11790,7 +11790,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/31b9932c-8cf7-4e63-9d11-082540b190e4")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11948,7 +11948,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b60748c4-87a7-40e5-bbb2-873895b80ed4")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12212,7 +12212,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/c55844fc-963e-4546-be14-8ba45f4c9161")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12429,7 +12429,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/58cfb514-ef62-4757-bdc2-8adec8d65515")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12587,7 +12587,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4b6ba6cf-14b4-488b-8f74-97f291a5bee3")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12746,7 +12746,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/9f281ea2-041c-45f9-9be0-9c78ab8db9e9")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12863,7 +12863,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/72c8467c-58fc-467d-ae34-fccb7c648b00")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13034,7 +13034,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/95b89f4d-88f6-40f6-9371-722fcf398767")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13219,7 +13219,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6b9028d6-2351-461a-aa71-808181411727")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13377,7 +13377,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fe315366-e4f7-4df9-8dc6-e03c9732428b")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13523,7 +13523,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b4963a6a-0661-46db-9a04-b6a2c12c4840")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13640,7 +13640,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cdad3d7a-d491-4597-9b3f-f015725d78d1")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13811,7 +13811,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/a3d05560-e5f1-4304-9508-cd307d5161e9")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13984,7 +13984,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/5b3f40f1-2f74-4c88-a144-d4ee166795d7")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14101,7 +14101,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b91b6c17-2423-4427-9b8b-b97da405b813")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14259,7 +14259,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/37a3209b-5b4f-4b32-a39b-687d7fe0fee3")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14417,7 +14417,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7275f805-42f4-4bb2-b172-f3a79a2a2b45")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14575,7 +14575,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3d02ea61-681a-4785-bd2b-48e278500530")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14733,7 +14733,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/687679ad-2393-44a5-95f5-5cecda11cbf4")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14891,7 +14891,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c4b94703-8121-4d84-98d4-dc65e8097f6e")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15050,7 +15050,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/fa3d1950-68d5-40cd-8379-d8c478c8ae90")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15267,7 +15267,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b64e11b3-5f1b-43f5-977d-5743a49216d5")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15425,7 +15425,7 @@
 		(property ki_fp_filters "SOIC*7.5x10.3mm*P1.27mm*")
 		(path "/24331b13-7fe5-4312-9c4b-0c7bf75969a6")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16511,7 +16511,7 @@
 		)
 		(path "/14e3ccf3-7b7f-403a-ad46-d7ef93487ba1")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16739,7 +16739,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -16808,7 +16808,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/98bc42a7-bf2a-403a-b4cf-0ff1a48e13ce")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17094,7 +17094,7 @@
 		)
 		(path "/553d1830-6bd9-418b-bc0c-4a3fe1f2c889")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17403,7 +17403,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -17472,7 +17472,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7f90db07-1ebe-4082-8d36-83ec4835dbab")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17630,7 +17630,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/46f26b22-2976-481f-8222-0266b941c5da")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17776,7 +17776,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/5c6b30ef-65e6-43a0-a3d2-c0f691e93368")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17893,7 +17893,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/554f63ef-7431-4683-b4ca-77cee6a6674a")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18156,7 +18156,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b0944d88-4074-4f2c-8f52-c9a61be4d546")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18314,7 +18314,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d8f95840-6abb-40e3-87e4-028c3ad51842")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18464,7 +18464,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/856d8c35-2af5-4ee6-bbbd-a904df70bbb5")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18762,7 +18762,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/b5f1ab64-63b2-42fe-8dcb-38932f97eff1")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19177,7 +19177,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0b9fc725-89d5-4580-8d8e-ee99c50ad6b9")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19362,7 +19362,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fd722a9a-cb02-4d5f-9ec3-37c5425c5208")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19520,7 +19520,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/701e982b-28a7-4df1-95cb-13aeae528014")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19954,7 +19954,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d09fcdc4-6996-4224-bd5e-75384d6acbe6")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20112,7 +20112,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/feb026c7-1eef-4b3b-8033-3f1a630fb0fa")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20270,7 +20270,7 @@
 		(property ki_fp_filters "Sensirion*SCD4?*")
 		(path "/9ef9ddf6-2945-475d-a553-9b83c64bdc38")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20880,7 +20880,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7d866c55-52a0-4db7-867b-0c26355c9d67")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21038,7 +21038,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7dc1966b-1034-4f78-92c5-eddeb30ca6a2")
 		(sheetname "/")
-		(sheetfile "Environmental_sensor_MPU6050.kicad_sch")
+		(sheetfile "IEQ_Monitor.kicad_sch")
 		(units
 			(unit
 				(name "A")
