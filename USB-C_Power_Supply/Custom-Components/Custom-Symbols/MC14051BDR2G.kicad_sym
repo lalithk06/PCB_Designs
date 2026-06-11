@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 14.478 17.018 0)
+			(at -12.7 21.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Value" "MC14051BDR2G"
-			(at 13.462 14.478 0)
+			(at -12.7 -24.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Footprint" "MC14051BDR2G:SOIC127P600X175-16N"
-			(at -0.508 23.622 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -57,7 +57,7 @@
 			)
 		)
 		(property "Description" "1 Circuit IC Switch 8:1 280Ohm 16-SOIC"
-			(at 1.016 26.162 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -69,7 +69,7 @@
 			)
 		)
 		(property "MF" "ON Semiconductor"
-			(at -0.508 23.622 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -81,7 +81,7 @@
 			)
 		)
 		(property "Package" "SOIC-16 ON Semiconductor"
-			(at -0.508 23.622 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -93,7 +93,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 1.016 26.162 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -105,7 +105,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MC14051BDR2G/Onsemi/view-part/?ref=snap"
-			(at -1.27 25.908 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -117,7 +117,7 @@
 			)
 		)
 		(property "MP" "MC14051BDR2G"
-			(at -0.508 23.622 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -129,7 +129,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at -4.064 27.178 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -141,7 +141,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MC14051BDR2G/Onsemi/view-part/?ref=eda"
-			(at -1.27 25.908 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -154,8 +154,8 @@
 		)
 		(symbol "MC14051BDR2G_0_0"
 			(rectangle
-				(start -12.7 20.32)
-				(end 12.7 -20.32)
+				(start -12.7 -20.32)
+				(end 12.7 20.32)
 				(stroke
 					(width 0.41)
 					(type default)
@@ -165,7 +165,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -3.81 0)
+				(at 17.78 -5.08 180)
 				(length 5.08)
 				(name "X4"
 					(effects
@@ -183,7 +183,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -8.89 0)
+				(at 17.78 -20.32 180)
 				(length 5.08)
 				(name "X6"
 					(effects
@@ -200,8 +200,26 @@
 					)
 				)
 			)
+			(pin output line
+				(at 17.78 0 180)
+				(length 5.08)
+				(name "X"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at -17.78 -11.43 0)
+				(at 17.78 -22.86 180)
 				(length 5.08)
 				(name "X7"
 					(effects
@@ -219,7 +237,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -6.35 0)
+				(at 17.78 -17.78 180)
 				(length 5.08)
 				(name "X5"
 					(effects
@@ -237,7 +255,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -16.51 0)
+				(at -17.78 5.08 0)
 				(length 5.08)
 				(name "INH"
 					(effects
@@ -255,7 +273,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -25.4 90)
+				(at 17.78 -17.78 180)
 				(length 5.08)
 				(name "VEE"
 					(effects
@@ -273,7 +291,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -25.4 90)
+				(at 17.78 -15.24 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -291,7 +309,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 11.43 0)
+				(at -17.78 7.62 0)
 				(length 5.08)
 				(name "C"
 					(effects
@@ -309,7 +327,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 13.97 0)
+				(at -17.78 10.16 0)
 				(length 5.08)
 				(name "B"
 					(effects
@@ -327,7 +345,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 16.51 0)
+				(at -17.78 12.7 0)
 				(length 5.08)
 				(name "A"
 					(effects
@@ -345,7 +363,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -1.27 0)
+				(at -17.78 -7.62 0)
 				(length 5.08)
 				(name "X3"
 					(effects
@@ -363,7 +381,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 6.35 0)
+				(at -17.78 0 0)
 				(length 5.08)
 				(name "X0"
 					(effects
@@ -381,7 +399,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 3.81 0)
+				(at -17.78 -2.54 0)
 				(length 5.08)
 				(name "X1"
 					(effects
@@ -399,7 +417,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 1.27 0)
+				(at -17.78 -5.08 0)
 				(length 5.08)
 				(name "X2"
 					(effects
@@ -417,7 +435,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 25.4 270)
+				(at 17.78 17.78 180)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -427,26 +445,6 @@
 					)
 				)
 				(number "16"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
-		(symbol "MC14051BDR2G_1_0"
-			(pin bidirectional line
-				(at 17.78 0 180)
-				(length 5.08)
-				(name "X"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
