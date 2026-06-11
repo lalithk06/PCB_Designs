@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CH224A") (type "KiCad") (uri "D:/GitHUB/KiCAD/PCB_Designs/USB-C_Power_Supply/Custom-Footprints/CH224A.pretty") (options "") (descr ""))
+)
