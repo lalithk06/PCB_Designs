@@ -28,34 +28,49 @@ A compact USB Type-C Power Delivery (USB-PD) trigger board capable of requesting
 
 # Board Overview
 
-```
-                USB-C PD Adapter
-                        │
-                        ▼
-            USB-C Receptacle (J1)
-                        │
-      ┌─────────────────────────┐
-      │                                 │
-      │      TVS + PMOS Protection      │
-      │                                 │
-      └─────────────────────────┘
-                        │
-                     +V_USB
-                        │
-        ┌───────────────┴───────┐
-        │                              │
-        ▼                              ▼
-    CH224A PD Controller         MCP16331 Buck
-        │                              │
-        │                           +3.3V
-        │                              │
-        ▼                              ▼
- Voltage Selection              LEDs, MC14051,
-   Negotiation                  Logic & I²C
-        │
-        ▼
-  Output Screw Terminal
-```
+![Board Overview](Images/Block_Diagram.png)
+
+---
+
+# Project Images
+
+## Schematic
+
+<p align="center">
+  <img src="Schematic/Schematic.png" alt="USB-C Power Supply Schematic" width="1000">
+</p>
+
+---
+
+## PCB Layout
+
+### Top Layer
+
+<p align="center">
+  <img src="Images/PCB_Top.png" alt="PCB Top Layout" width="700">
+</p>
+
+### Bottom Layer
+
+<p align="center">
+  <img src="Images/PCB_Bottom.png" alt="PCB Bottom Layout" width="700">
+</p>
+
+---
+
+## 3D Model
+
+### Top View
+
+<p align="center">
+  <img src="Images/3D_Top.png" alt="3D Top View" width="700">
+</p>
+
+### Bottom View
+
+<p align="center">
+  <img src="Images/3D_Bottom.png" alt="3D Bottom View" width="700">
+</p>
 
 ---
 
@@ -158,14 +173,14 @@ The onboard electronics operate from a dedicated 3.3V rail.
 Power conversion:
 
 ```
-5V–28V
+    5V–28V
       │
       ▼
- MCP16331
- Buck Converter
+   MCP16331
+Buck Converter
       │
       ▼
-   3.3V Rail
+  3.3V Rail
 ```
 
 The buck converter powers:
@@ -256,21 +271,6 @@ Advantages
 
 ---
 
-## USB Data Line Protection
-
-USBLC6 protects:
-
-- D+
-- D-
-
-against:
-
-- IEC ESD
-- EFT
-- Transient overvoltage
-
----
-
 ## CC Line Protection
 
 22Ω series resistors improve robustness against:
@@ -304,53 +304,6 @@ This allows requesting
 using a standard USB-C connector.
 
 Refer to the CH224A datasheet for further details.
-
----
-
-# LEDs
-
-| LED | Function |
-|------|----------|
-| D2 | 5V Indicator |
-| D3 | 9V Indicator |
-| D4 | 12V Indicator |
-| D5 | 20V Indicator |
-| D6 | 28V Indicator |
-| D1 | Error Indicator |
-
----
-
-# Connectors
-
-## J1
-
-USB Type-C Input
-
----
-
-## J2
-
-Output Connector
-
-```
-+V_USB
-
-GND
-```
-
----
-
-## J3
-
-I²C Interface
-
-```
-SDA
-
-SCL
-
-GND
-```
 
 ---
 
