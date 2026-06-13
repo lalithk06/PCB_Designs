@@ -12014,6 +12014,12 @@
 		(uuid "747e2f5a-6d19-430a-a485-34fe82f6e51e")
 	)
 	(junction
+		(at 340.36 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aedd8e7-35b9-4393-bbd5-6e0c73681a8e")
+	)
+	(junction
 		(at 321.31 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12036,12 +12042,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86f657fe-21f1-497a-a02e-ef9b8b36a31c")
-	)
-	(junction
-		(at 181.61 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87416fc2-c86c-44fa-ab4c-017b2b1417df")
 	)
 	(junction
 		(at 97.79 248.92)
@@ -12119,7 +12119,7 @@
 		(at 168.91 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae486c72-d22a-421e-b94c-f2d0dbb7217f")
+		(uuid "badd6c36-dfcf-4df4-b3e2-54d35a3d3f8e")
 	)
 	(junction
 		(at 201.93 90.17)
@@ -12199,6 +12199,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 119.38) (xy 340.36 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0346aa56-efe9-4a1b-a9f7-f77c3a63b1ea")
+	)
+	(wire
+		(pts
 			(xy 369.57 57.15) (xy 369.57 62.23)
 		)
 		(stroke
@@ -12229,7 +12239,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 120.65) (xy 340.36 113.03)
+			(xy 340.36 120.65) (xy 340.36 119.38)
 		)
 		(stroke
 			(width 0)
@@ -12349,7 +12359,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 66.04) (xy 181.61 67.31)
+			(xy 181.61 62.23) (xy 181.61 67.31)
 		)
 		(stroke
 			(width 0)
@@ -13076,16 +13086,6 @@
 			(type default)
 		)
 		(uuid "7dfc1a32-a3b8-4b84-bcdd-9440eaa853ca")
-	)
-	(wire
-		(pts
-			(xy 181.61 62.23) (xy 181.61 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "804aa026-864c-48e5-a4a3-ef3ba4ac64e5")
 	)
 	(wire
 		(pts
@@ -15052,7 +15052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 162.2552 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15370,7 +15370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
 			(at 45.72 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -15449,7 +15449,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 82.55 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16080,7 +16080,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 283.21 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -16173,7 +16173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Screw Terminal:CUI_TB007-508-02BE"
 			(at 111.76 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -16466,6 +16466,115 @@
 		)
 	)
 	(symbol
+		(lib_id "CH224A:CH224A_USB_PD_Multi_Fast_Charging_Protocol_Power_Receiving_Chip")
+		(at 171.45 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4439c74a-9ff4-4348-85af-7f8afd2eeca9")
+		(property "Reference" "U1"
+			(at 183.7533 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CH224A"
+			(at 183.7533 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CH224A:CH224A USB PD Multi Fast Charging Protocol Power Receiving Chip"
+			(at 171.958 61.976 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://CH224A.pdf"
+			(at 177.8 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB-C PD/QC trigger IC used to request fixed voltages (5V, 9V, 12V, 15V, 20V) from compatible chargers."
+			(at 175.514 56.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "73b4a5da-f2d4-4470-a424-07cad0fb9e05")
+		)
+		(pin "7"
+			(uuid "4529ee6b-9559-4128-bfe0-bc9baab74681")
+		)
+		(pin "5"
+			(uuid "78ae85a1-0553-48e5-a625-102a78833c2a")
+		)
+		(pin "6"
+			(uuid "7b3786f3-7443-4ab1-a642-4f90923dd723")
+		)
+		(pin "11"
+			(uuid "7c295a4e-e571-475b-82de-1c737aac38f4")
+		)
+		(pin "3"
+			(uuid "df68832c-3608-43bd-a846-008241ec39df")
+		)
+		(pin "9"
+			(uuid "ef6fd725-a2ae-44bf-84fa-fed8e12b33f8")
+		)
+		(pin "4"
+			(uuid "4cdd8882-3a67-457b-aca0-429fd6cdaa81")
+		)
+		(pin "1"
+			(uuid "d66ada0f-f067-4d80-96c9-d0eb5b6497d9")
+		)
+		(pin "10"
+			(uuid "923c240f-fa74-48b6-bc54-2c760a9a02b4")
+		)
+		(pin "8"
+			(uuid "b070b211-2794-487d-a2b1-ba996475ab09")
+		)
+		(instances
+			(project "USB-C_Power_Supply"
+				(path "/07987bcc-2856-4164-8b3e-c1534058717d"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 92.71 243.84 0)
 		(unit 1)
@@ -16498,7 +16607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 93.6752 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -17018,7 +17127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 37.7952 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -17348,7 +17457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.9852 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17391,85 +17500,6 @@
 			(project "USB-C_Power_Supply"
 				(path "/07987bcc-2856-4164-8b3e-c1534058717d"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 181.61 66.04 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ffad509-f0ce-422d-885e-8f6fa8fc00df")
-		(property "Reference" "#FLG02"
-			(at 179.705 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 177.8 66.0399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 181.61 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eef3b566-41f5-45cf-aa7c-60cb055e5677")
-		)
-		(instances
-			(project "USB-C_Power_Supply"
-				(path "/07987bcc-2856-4164-8b3e-c1534058717d"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -18058,7 +18088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.4252 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18138,7 +18168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 360.68 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -18456,7 +18486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 93.98 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -18572,7 +18602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
 			(at 99.06 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -19357,7 +19387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 120.3452 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -19438,7 +19468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 125.4252 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -19519,7 +19549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.4052 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -19601,7 +19631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 104.14 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -19915,7 +19945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W8.61mm_P2.54mm_LowProfile"
 			(at 278.13 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -20008,7 +20038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 135.5852 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -20421,112 +20451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CH224A:CH224A_USB_PD_Multi_Fast_Charging_Protocol_Power_Receiving_Chip")
-		(at 171.45 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b4e3e279-0626-4d6c-8348-d773cd9db753")
-		(property "Reference" "U3"
-			(at 189.738 65.278 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CH224A"
-			(at 189.992 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CH224A:CH224A USB PD Multi Fast Charging Protocol Power Receiving Chip"
-			(at 171.45 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "kicad-embed://CH224A.pdf"
-			(at 177.292 68.072 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB-C PD/QC trigger IC used to request fixed voltages (5V, 9V, 12V, 15V, 20V) from compatible chargers."
-			(at 175.006 64.262 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "ee98277d-b0a4-4a25-96ba-52890e4976fd")
-		)
-		(pin "9"
-			(uuid "06a4a76b-e23d-4e1f-ba7b-58340644ef97")
-		)
-		(pin "1"
-			(uuid "0564f1b2-3cd7-454f-a239-c1af15c65688")
-		)
-		(pin "2"
-			(uuid "b61419f3-fb68-4e4d-a056-a18ae9c783b3")
-		)
-		(pin "4"
-			(uuid "b21b6270-89c2-47f5-b851-20ea5b21ed53")
-		)
-		(pin "5"
-			(uuid "0d31cf3a-5ead-4a97-954b-f152f6243848")
-		)
-		(pin "6"
-			(uuid "4a57ca9e-f887-45ee-843a-119d24e6720a")
-		)
-		(pin "7"
-			(uuid "b81501fe-0e46-492c-9bb0-0d1007939e46")
-		)
-		(pin "8"
-			(uuid "be64bfea-94b8-44e5-9c9a-8543b9d546f3")
-		)
-		(pin "10"
-			(uuid "c00d5c53-09e2-49d8-8b73-2c02c5296a48")
-		)
-		(pin "11"
-			(uuid "4c219376-b198-47f0-aef0-a1999e5b3652")
-		)
-		(instances
-			(project "USB-C_Power_Supply"
-				(path "/07987bcc-2856-4164-8b3e-c1534058717d"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 45.72 229.87 270)
 		(unit 1)
@@ -20560,7 +20484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
 			(at 45.72 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -20717,7 +20641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
 			(at 45.72 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -20873,7 +20797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 47.9552 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -20922,6 +20846,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 340.36 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cacf7f16-6bdb-47ee-97c2-3c0edadc0f38")
+		(property "Reference" "#FLG04"
+			(at 338.455 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 336.55 119.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 340.36 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9ea8407-efed-4d1b-b4b7-2afaf4c85b91")
+		)
+		(instances
+			(project "USB-C_Power_Supply"
+				(path "/07987bcc-2856-4164-8b3e-c1534058717d"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 57.15 173.99 0)
 		(unit 1)
@@ -20954,7 +20957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 58.1152 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -21036,7 +21039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
 			(at 45.72 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -21451,7 +21454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.9952 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -21611,7 +21614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 283.21 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -21704,7 +21707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 281.94 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -22112,7 +22115,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 283.21 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -22441,7 +22444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 283.21 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -22533,7 +22536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.7552 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -22771,7 +22774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 181.61 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -22863,7 +22866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 364.1852 120.65 0)
 			(hide yes)
 			(show_name no)
