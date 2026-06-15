@@ -16499,7 +16499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CH224A:CH224A USB PD Multi Fast Charging Protocol Power Receiving Chip"
+		(property "Footprint" "CH224A:CH224A"
 			(at 171.958 61.976 0)
 			(hide yes)
 			(show_name no)
@@ -17001,7 +17001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 50.8 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -20117,7 +20117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MC14051BDR2G:SOIC127P600X175-16N"
+		(property "Footprint" "MC14051BDR2G:MC14051BDR2G"
 			(at 342.138 119.634 0)
 			(hide yes)
 			(show_name no)
