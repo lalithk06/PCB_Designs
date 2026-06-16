@@ -11966,12 +11966,6 @@
 		(uuid "562e01ab-570d-43e6-83d7-2614b2122a78")
 	)
 	(junction
-		(at 46.99 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cb5467d-7fed-48a6-bf4b-9545192bc253")
-	)
-	(junction
 		(at 340.36 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12869,16 +12863,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 57.15) (xy 181.61 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c818214-801d-4353-abf5-4ce0a0ee892f")
-	)
-	(wire
-		(pts
 			(xy 274.32 165.1) (xy 279.4 165.1)
 		)
 		(stroke
@@ -13539,6 +13523,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 57.15) (xy 181.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bc1ca2-361f-4414-b003-c17d2cbddbee")
+	)
+	(wire
+		(pts
 			(xy 62.23 71.12) (xy 62.23 72.39)
 		)
 		(stroke
@@ -13906,16 +13900,6 @@
 			(type default)
 		)
 		(uuid "e95ec0c6-1cdc-419d-b46c-74b3dcf2f87b")
-	)
-	(wire
-		(pts
-			(xy 46.99 170.18) (xy 46.99 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb1fa8e4-b437-4364-b824-0e3fa6ef6c29")
 	)
 	(wire
 		(pts
@@ -14562,6 +14546,16 @@
 			(justify left bottom)
 		)
 		(uuid "086c5c84-f543-41bf-81e1-9641fb870d4e")
+	)
+	(label "VBUS"
+		(at 63.5 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eba6d7a-499f-44db-96b6-2e69001118d9")
 	)
 	(label "CFG3{slash}SDA"
 		(at 236.22 81.28 0)
@@ -22326,6 +22320,85 @@
 			(project "USB-C_Power_Supply"
 				(path "/07987bcc-2856-4164-8b3e-c1534058717d"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 181.61 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee52275a-0a58-4460-ab6f-3dedd9cb7785")
+		(property "Reference" "#FLG05"
+			(at 183.515 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 185.42 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 181.61 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a371b2d5-df9c-44c3-90bc-216cf449fda3")
+		)
+		(instances
+			(project "USB-C_Power_Supply"
+				(path "/07987bcc-2856-4164-8b3e-c1534058717d"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
